@@ -1,11 +1,11 @@
 .artdeco1 {
-    margin-left: -8px;
-    margin-top: -8px;
+  margin-left: -8px;
+  margin-top: -8px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-size: 50px;
 }
-  
+
 p {
   color: #1a2236;
   width: 288px;
@@ -30,7 +30,7 @@ p {
   font-size: 14px;
   line-height: 21px;
 }
-  
+
 button {
   border-color: #1a2236;
   font-family: 'Poppins', serif;
@@ -43,12 +43,12 @@ button {
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
 }
-  
+
 button:hover {
   color: #1a2236;
   background: white;
 }
-  
+
 button:active {
   color: #1a2236;
   background: white;
