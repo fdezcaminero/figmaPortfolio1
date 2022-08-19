@@ -57,6 +57,8 @@ button:active {
 
 .box1 {
   background: #1A2236;
+  display: grid;
+  justify-items: center;
   width: 320px;
 }
 
