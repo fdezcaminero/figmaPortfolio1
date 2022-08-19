@@ -68,16 +68,12 @@ ul {
   list-style: none;
 }
 
-li {
+.greenli {
   font-size: 14px;
   color: #1A2236;
   border: 1px solid #98DEDE;
   background-color: #98DEDE;
   margin-right: 3px;
-}
-
-.marginleft {
-  margin-left: 15px;
 }
 
 h3 {
