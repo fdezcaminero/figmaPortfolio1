@@ -84,3 +84,7 @@ h3 {
   color: white;
   font-weight: 1px;
 }
+
+.bordersolid {
+  border: 1px solid white;
+}
