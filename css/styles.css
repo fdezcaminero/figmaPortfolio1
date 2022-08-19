@@ -94,16 +94,14 @@ button:active {
 
 .rectangletext {
   position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translate(-50%, -50%);
+  top: 23%;
+  left: 3%;
 }
 
 .rectangletext2 {
   position: absolute;
   top: 50%;
-  left: 7%;
-  transform: translate(-50%, -50%);
+  left: 25%;
 }
 
 .rectanglesymbol1 {
