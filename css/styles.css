@@ -54,3 +54,8 @@ button:active {
   background: white;
   border-width: 2px 2px 2px 2px;
 }
+
+.box1 {
+  background: #1A2236;
+  width: 320px;
+}
