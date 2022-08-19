@@ -68,8 +68,10 @@ ul {
 
 li {
   font-size: 14px;
-  color: white;
-  border: 1px;
+  color: #1A2236;
+  border: 1px solid #98DEDE;
+  background-color: #98DEDE;
+  margin-right: 3px;
 }
 
 .marginleft {
