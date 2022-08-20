@@ -17,6 +17,12 @@ nav {
   margin-top: -8px;
 }
 
+.decoration2 {
+  background-image: url(../resources/image_geometry_2.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 164px;
+}
+
 h1 {
   color: #1a2236;
   width: 220px;
