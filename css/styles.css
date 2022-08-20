@@ -34,7 +34,7 @@ h1 {
   font-size: 50px;
 }
 
-p {
+.p1 {
   color: #1a2236;
   width: 288px;
   height: 80px;
@@ -44,6 +44,18 @@ p {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+}
+
+.p2 {
+  color: #1a2236;
+  width: 220px;
+  line-height: 100%;
+  margin-top: 19px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: 25px;
 }
 
 button {
