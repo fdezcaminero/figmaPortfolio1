@@ -58,7 +58,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-button {
+.button1 {
   border-color: #1a2236;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -69,6 +69,21 @@ button {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+}
+
+.button2 {
+  border-color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 207px;
+  margin-left: 16px;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  margin-bottom: 17px;
+  border-width: 1px 1px 1px 1px;
+  position: relative;
+  left: 24px;
 }
 
 button:hover {
