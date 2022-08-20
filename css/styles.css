@@ -116,11 +116,6 @@ button:active {
   margin-left: 2px;
 }
 
-.rectangle {
-  position: relative;
-  color: white;
-}
-
 .rectangletext {
   position: absolute;
   top: 23%;
@@ -166,4 +161,31 @@ button:active {
 
 .poundsign {
   background-image: url(../resources/pound.svg);
+}
+
+.rectangle1 {
+  background-color: #064c8a;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.rectangle2 {
+  background-color: #e2505c;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.rectangle3 {
+  background-color: #ffc04f;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
 }
