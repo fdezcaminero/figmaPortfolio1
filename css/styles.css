@@ -128,12 +128,6 @@ button:active {
   left: 3%;
 }
 
-.rectanglesymbol1 {
-  position: absolute;
-  bottom: 4px;
-  left: 186px;
-}
-
 .rectanglesymbol2 {
   position: absolute;
   bottom: 4px;
@@ -161,6 +155,29 @@ button:active {
 
 .poundsign {
   background-image: url(../resources/pound.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 185px;
+  top: 187px;
+}
+
+.squaresign {
+  background-image: url(../resources/Group18.png);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 193px;
+  top: 194px;
+}
+
+.lightbulb {
+  background-image: url(../resources/ic_skills.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 185px;
+  top: 187px;
 }
 
 .rectangle1 {
