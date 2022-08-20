@@ -1,11 +1,26 @@
-.artdeco1 {
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.artdeco {
+  padding-top: 6px;
+}
+
+.decoration1 {
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 77px;
   margin-left: -8px;
   margin-top: -8px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+.decoration2 {
+  background-image: url(../resources/image_geometry_2.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 164px;
 }
 
 h1 {
@@ -19,21 +34,33 @@ h1 {
   font-size: 50px;
 }
 
-p {
+.p1 {
   color: #1a2236;
   width: 288px;
   height: 80px;
   margin-top: 21px;
   margin-left: 16px;
-  font-family: 'Poppins', serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
 }
 
-button {
+.p2 {
+  color: #1a2236;
+  width: 220px;
+  line-height: 100%;
+  margin-top: 19px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.button1 {
   border-color: #1a2236;
-  font-family: 'Poppins', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   width: 288px;
   margin-left: 16px;
@@ -42,6 +69,21 @@ button {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+}
+
+.button2 {
+  border-color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 207px;
+  margin-left: 16px;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  margin-bottom: 17px;
+  border-width: 1px 1px 1px 1px;
+  position: relative;
+  left: 24px;
 }
 
 button:hover {
@@ -53,4 +95,135 @@ button:active {
   color: #1a2236;
   background: white;
   border-width: 2px 2px 2px 2px;
+}
+
+.box1 {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.greenul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 27px;
+}
+
+.greenli {
+  font-size: 14px;
+  color: #1a2236;
+  border: 1px solid #98dede;
+  background-color: #98dede;
+  margin-right: 3px;
+}
+
+.projectName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-bottom: -4px;
+}
+
+.bordersolid {
+  border: 1px solid white;
+  margin-left: 2px;
+}
+
+.rectangletext {
+  position: absolute;
+  top: 23%;
+  left: 3%;
+}
+
+.rectangletext2 {
+  position: absolute;
+  top: 23%;
+  left: 3%;
+}
+
+.rectanglesymbol2 {
+  position: absolute;
+  bottom: 4px;
+  left: 193px;
+}
+
+.rectanglesymbol3 {
+  position: absolute;
+  left: 185px;
+  top: 185px;
+}
+
+.marginleft {
+  margin-left: 17px;
+}
+
+.maryPoppins {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.maryPoppins2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.poundsign {
+  background-image: url(../resources/pound.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 187px;
+  top: 187px;
+}
+
+.squaresign {
+  background-image: url(../resources/Group18.png);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 193px;
+  top: 194px;
+}
+
+.lightbulb {
+  background-image: url(../resources/ic_skills.svg);
+  background-repeat: no-repeat;
+  padding-bottom: 102px;
+  position: relative;
+  left: 185px;
+  top: 187px;
+}
+
+.rectangle1 {
+  background-color: #064c8a;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.rectangle2 {
+  background-color: #e2505c;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.rectangle3 {
+  background-color: #ffc04f;
+  height: 289px;
+  width: 289px;
+  position: relative;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.noOF {
+  position: relative;
+  bottom: 1px;
 }
