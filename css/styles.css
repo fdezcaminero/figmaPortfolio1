@@ -227,3 +227,38 @@ button:active {
   position: relative;
   bottom: 1px;
 }
+
+.getstarted {
+  margin-left: 17px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getstarted ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+input {
+  width: 288px;
+  height: 52px;
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+}
+
+.getstarted form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getstarted header p {
+  margin-left: 16px;
+}
+
+
