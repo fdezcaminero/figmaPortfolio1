@@ -260,14 +260,24 @@ button:active {
   padding-left: 0;
 }
 
+footer ul {
+  list-style: none;
+}
+
 input {
   width: 288px;
   height: 52px;
+  border: 1px solid #1A2236;
+  border-radius: 4px;
+  margin-bottom: 10px;
 }
 
 textarea {
   width: 288px;
   height: 112px;
+  border: 1px solid #1A2236;
+  border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .getstarted form ul {
@@ -287,12 +297,11 @@ textarea {
 
 .dflex {
   display: flex;
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .social {
   display: flex;
-  margin-left: 15px;
 }
 
 .coolarrow {
