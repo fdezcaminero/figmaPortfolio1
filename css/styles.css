@@ -299,3 +299,15 @@ textarea {
   margin-top: 17px;
   margin-left: 10px;
 }
+
+.posrev {
+  position: relative;
+}
+
+.crazylabel {
+  color: #7D7C84;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 11px;
+}
