@@ -34,6 +34,17 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  color: #1a2236;
+  width: 220px;
+  line-height: 100%;
+  margin-top: 79px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
 .p1 {
   color: #1a2236;
   width: 288px;
@@ -100,6 +111,14 @@ button:active {
 .box1 {
   background: #1a2236;
   display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.box2 {
+  background: #1a2236;
+  display: grid;
+  color: #92DCDC;
   justify-items: flex-start;
   width: 100%;
 }
@@ -261,4 +280,22 @@ textarea {
   margin-left: 16px;
 }
 
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
 
+.dflex {
+  display: flex;
+  margin-left: 15px;
+}
+
+.social {
+  display: flex;
+  margin-left: 15px;
+}
+
+.coolarrow {
+  margin-top: 17px;
+  margin-left: 10px;
+}
