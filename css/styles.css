@@ -34,6 +34,17 @@ h1 {
   font-size: 50px;
 }
 
+h2 {
+  color: #1a2236;
+  width: 220px;
+  line-height: 100%;
+  margin-top: 79px;
+  margin-left: 16px;
+  font-weight: 400;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+
 .p1 {
   color: #1a2236;
   width: 288px;
@@ -100,6 +111,14 @@ button:active {
 .box1 {
   background: #1a2236;
   display: grid;
+  justify-items: flex-start;
+  width: 100%;
+}
+
+.box2 {
+  background: #1a2236;
+  display: grid;
+  color: #92dcdc;
   justify-items: flex-start;
   width: 100%;
 }
@@ -226,4 +245,79 @@ button:active {
 .noOF {
   position: relative;
   bottom: 1px;
+}
+
+.getstarted {
+  margin-left: 17px;
+  width: 288px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.getstarted ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+input {
+  width: 288px;
+  height: 52px;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 288px;
+  height: 112px;
+  border: 1px solid #1a2236;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.getstarted form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getstarted header p {
+  margin-left: 16px;
+}
+
+.awhite {
+  color: white;
+  margin-right: 30px;
+}
+
+.dflex {
+  display: flex;
+  margin-left: 30px;
+}
+
+.social {
+  display: flex;
+}
+
+.coolarrow {
+  margin-top: 17px;
+  margin-left: 10px;
+}
+
+.posrev {
+  position: relative;
+}
+
+.crazylabel {
+  color: #7d7c84;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  font-size: 11px;
 }
