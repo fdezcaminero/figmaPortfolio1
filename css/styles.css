@@ -329,6 +329,15 @@ textarea {
   font-size: 11px;
 }
 
+.desktopnav {
+  visibility: hidden;
+}
+
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
 @media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
@@ -339,11 +348,17 @@ textarea {
   }
 
   .decoration3 {
+    height: 877.09px;
     visibility: visible;
+    width: 1403px;
   }
 
   .desktopflex {
     display: flex;
     justify-content: space-between;
+  }
+
+  .desktopnav {
+    visibility: visible;
   }
 }
