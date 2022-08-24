@@ -338,6 +338,13 @@ textarea {
   list-style: none;
 }
 
+.deco4 {
+  background-image: url(../resources/image_dots.png);
+  background-repeat: no-repeat;
+  padding-bottom: 164px;
+  visibility: hidden;
+}
+
 @media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
@@ -351,6 +358,10 @@ textarea {
     height: 877.09px;
     visibility: visible;
     width: 1403px;
+  }
+
+  .deco4 {
+    visibility: visible;
   }
 
   .desktopflex {
