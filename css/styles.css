@@ -118,7 +118,7 @@ button:active {
 .box2 {
   background: #1a2236;
   display: grid;
-  color: #92DCDC;
+  color: #92dcdc;
   justify-items: flex-start;
   width: 100%;
 }
@@ -256,19 +256,20 @@ button:active {
   padding-bottom: 20px;
 }
 
+footer ul {
+  list-style: none;
+}
+
 .getstarted ul {
   list-style: none;
   padding-left: 0;
 }
 
-footer ul {
-  list-style: none;
-}
 
 input {
   width: 288px;
   height: 52px;
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
   border-radius: 4px;
   margin-bottom: 10px;
 }
@@ -276,7 +277,7 @@ input {
 textarea {
   width: 288px;
   height: 112px;
-  border: 1px solid #1A2236;
+  border: 1px solid #1a2236;
   border-radius: 4px;
   margin-bottom: 20px;
 }
@@ -315,7 +316,7 @@ textarea {
 }
 
 .crazylabel {
-  color: #7D7C84;
+  color: #7d7c84;
   position: absolute;
   top: 2px;
   left: 4px;
