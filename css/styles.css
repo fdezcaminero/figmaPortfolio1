@@ -372,4 +372,15 @@ textarea {
   .desktopnav {
     visibility: visible;
   }
+
+  .dflex2 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 }
