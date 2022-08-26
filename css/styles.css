@@ -257,6 +257,7 @@ button:active {
   position: relative;
   color: white;
   margin-bottom: 12px;
+  margin-left: 0;
 }
 
 .rectangle3 {
@@ -266,6 +267,7 @@ button:active {
   position: relative;
   color: white;
   margin-bottom: 12px;
+  margin-top: -12px;
 }
 
 .noOF {
@@ -402,6 +404,7 @@ i:hover {
     height: 877.09px;
     visibility: visible;
     width: 1403px;
+    margin-left: 677px;
   }
 
   .deco4 {
@@ -420,6 +423,7 @@ i:hover {
   .dflex2 {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
   }
 
   .grid1 {
