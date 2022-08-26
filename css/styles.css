@@ -92,6 +92,15 @@ h2 {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
+}
+
+@keyframes button1Animation {
+  50% {
+    transform: scale(1.04);
+    box-shadow: 10px 10px #1a22362d;
+
+  } 
 }
 
 .button2 {
