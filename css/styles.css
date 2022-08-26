@@ -3,6 +3,11 @@ nav {
   justify-content: space-between;
 }
 
+.stickimg {
+  position: absolute;
+  margin-top: 23px;
+}
+
 .artdeco {
   padding-top: 6px;
 }
@@ -362,6 +367,10 @@ i:hover {
   text-align: right;
 
   color: #1A2236;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
 }
 
 .desktopnav ul {
