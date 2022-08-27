@@ -402,11 +402,21 @@ i:hover {
   background-image: url(../resources/image-geometry_7.svg);
   background-repeat: no-repeat;
   position: absolute;
-  left: 1317px;
-  top: 356px;
+  left: 1333px;
+  top: 296px;
   visibility: hidden;
   width: 353px;
   height: 351px;
+}
+
+.awesomedeco2 {
+  background-image: url(../resources/image-geometry_6.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  visibility: hidden;
+  width: 353px;
+  height: 351px;
+  left: -86px;
 }
 
 @media screen and (min-width: 1680px) {
@@ -490,6 +500,15 @@ i:hover {
 
   .awesomedeco1 {
     visibility: visible;
+  }
+
+  .awesomedeco2 {
+    visibility: visible;
+  }
+
+  .getstarted {
+    width: 100%;
+    margin-left: 0;
   }
 
   .box2 {
