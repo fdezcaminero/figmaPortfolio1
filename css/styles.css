@@ -351,6 +351,11 @@ textarea {
   margin-bottom: 20px;
 }
 
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
 .getstarted form ul {
   display: flex;
   flex-direction: column;
@@ -401,24 +406,16 @@ i:hover {
 
 .desktopnav {
   visibility: hidden;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
   text-align: right;
-
-  color: #1A2236;
-
+  color: #1a2236;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: lightgray;
-}
-
-.desktopnav ul {
-  display: flex;
-  list-style: none;
 }
 
 .desktopnav ul li {
@@ -492,7 +489,7 @@ i:hover {
   .decoration3 {
     background-image: url(../resources/Thur.png);
     background-repeat: no-repeat;
-    padding-bottom: 164px;  
+    padding-bottom: 164px;
     height: 877.09px;
     visibility: visible;
     width: 1403px;
@@ -589,7 +586,6 @@ i:hover {
   }
 
   .box1 {
-    width: 960px;
     position: absolute;
     left: 880px;
     top: -51px;
