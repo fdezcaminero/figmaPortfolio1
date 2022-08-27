@@ -89,6 +89,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+.desktopProjects {
+  visibility: hidden;
+}
+
 .p2:hover {
   transform: scale(1.1);
   transition-duration: 2s;
@@ -515,7 +519,11 @@ i:hover {
     transform: rotate(-90deg);
   }
 
-  .box2 {
+  .mobileProjects {
+    visibility: hidden;
+  }
 
+  .desktopProjects {
+    visibility: visible;
   }
 }
