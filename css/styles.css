@@ -13,6 +13,8 @@ nav {
 }
 
 .dottedimg1 {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
@@ -235,6 +237,8 @@ button:active {
 }
 
 .yellowdot {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
@@ -450,10 +454,14 @@ i:hover {
 }
 
 .imggeo2 {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
 .imggeo5 {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
@@ -462,14 +470,20 @@ i:hover {
 }
 
 .imgGroup83 {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
 .redSquare {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
 .imageDots2 {
+  height: 0;
+  width: 0;
   visibility: hidden;
 }
 
@@ -551,6 +565,8 @@ i:hover {
   .dottedimg1 {
     visibility: visible;
     position: absolute;
+    height: 175px;
+    width: 175px;
     top: 701px;
     left: -174px;
   }
@@ -604,11 +620,15 @@ i:hover {
     top: 1305px;
     visibility: visible;
     left: 979px;
+    height: 88px;
+    width: 88px;
   }
 
   .imggeo5 {
     position: absolute;
     top: 1303px;
+    height: 125px;
+    width: 212px;
     visibility: visible;
   }
 
@@ -622,6 +642,8 @@ i:hover {
 
   .imggeo2 {
     position: absolute;
+    height: 350px;
+    width: 511px;
     left: 867px;
     top: 671px;
     visibility: visible;
@@ -641,6 +663,8 @@ i:hover {
     position: absolute;
     left: 1486px;
     top: 1107px;
+    height: 176px;
+    width: 351px;
     visibility: visible;
   }
 
@@ -648,6 +672,8 @@ i:hover {
     position: absolute;
     left: 876px;
     top: 1118px;
+    height: 176px;
+    width: 176px;
     visibility: visible;
   }
 
@@ -666,6 +692,8 @@ i:hover {
 
   .imageDots2 {
     position: absolute;
+    height: 175px;
+    width: 175px;
     left: 703px;
     top: -48px;
     visibility: visible;
