@@ -12,6 +12,10 @@ nav {
   padding-top: 6px;
 }
 
+.dottedimg1 {
+  visibility: hidden;
+}
+
 .decoration1 {
   background-image: url(../resources/image_geometry_1.svg);
   background-repeat: no-repeat;
@@ -149,7 +153,6 @@ button:active {
   background: #1a2236;
   display: grid;
   color: #92dcdc;
-  justify-items: flex-start;
   width: 100%;
 }
 
@@ -279,6 +282,7 @@ button:active {
 }
 
 .getstarted {
+  position: relative;
   margin-left: 17px;
   width: 288px;
   display: flex;
@@ -394,6 +398,17 @@ i:hover {
   visibility: hidden;
 }
 
+.awesomedeco1 {
+  background-image: url(../resources/image-geometry_7.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1317px;
+  top: 356px;
+  visibility: hidden;
+  width: 353px;
+  height: 351px;
+}
+
 @media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
@@ -408,6 +423,7 @@ i:hover {
     visibility: visible;
     width: 1403px;
     margin-left: 677px;
+    position: relative;
   }
 
   .deco4 {
@@ -463,5 +479,20 @@ i:hover {
     position: absolute;
     left: 207px;
     top: 51px;
+  }
+
+  .dottedimg1 {
+    visibility: visible;
+    position: absolute;
+    top: 701px;
+    left: -174px;
+  }
+
+  .awesomedeco1 {
+    visibility: visible;
+  }
+
+  .box2 {
+
   }
 }
