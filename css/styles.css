@@ -511,6 +511,10 @@ i:hover {
     margin-left: 0;
   }
 
+  .projectsrotate {
+    transform: rotate(-90deg);
+  }
+
   .box2 {
 
   }
