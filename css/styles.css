@@ -44,9 +44,6 @@ nav {
 }
 
 .decoration3 {
-  background-image: url(../resources/Thur.png);
-  background-repeat: no-repeat;
-  padding-bottom: 164px;
   visibility: hidden;
 }
 
@@ -486,6 +483,9 @@ i:hover {
   }
 
   .decoration3 {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    padding-bottom: 164px;  
     height: 877.09px;
     visibility: visible;
     width: 1403px;
