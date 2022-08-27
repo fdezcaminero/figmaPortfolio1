@@ -118,6 +118,20 @@ h2 {
   animation: button1Animation 3s;
 }
 
+.button31416 {
+  border-color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 254px;
+  margin-left: 16px;
+  height: 70px;
+  background: #1a2236;
+  color: white;
+  margin-bottom: 17px;
+  border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
+}
+
 @keyframes button1Animation {
   50% {
     transform: scale(1.04);
@@ -476,6 +490,15 @@ i:hover {
   height: 0;
   width: 0;
   visibility: hidden;
+}
+
+.dflex3 {
+  display: flex;
+  justify-content: center;
+}
+
+.pad-right {
+  padding-right: 21px;
 }
 
 @media screen and (min-width: 768px) {
