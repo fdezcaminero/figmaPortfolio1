@@ -247,7 +247,6 @@ button:active {
   width: 289px;
   position: relative;
   color: white;
-  margin-bottom: 12px;
 }
 
 .rectangle2 {
@@ -257,7 +256,6 @@ button:active {
   position: relative;
   color: white;
   margin-bottom: 12px;
-  margin-left: 0;
 }
 
 .rectangle3 {
@@ -434,5 +432,13 @@ i:hover {
 
   .header1 {
     margin-top: -94px;
-  }  
+  }
+
+  .rectangle1 {
+    margin-bottom: 12px;
+  }
+
+  .rectangle2 {
+    margin-left: 0;
+  } 
 }
