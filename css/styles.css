@@ -459,6 +459,12 @@ i:hover {
   visibility: hidden;
 }
 
+.redSquare {
+  position: absolute;
+  left: 876px;
+  top: 1118px;
+}
+
 @media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
