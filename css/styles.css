@@ -446,8 +446,6 @@ i:hover {
 }
 
 .imggeo5 {
-  position: absolute;
-  left: 0;
   visibility: hidden;
 }
 
@@ -460,9 +458,11 @@ i:hover {
 }
 
 .redSquare {
-  position: absolute;
-  left: 876px;
-  top: 1118px;
+  visibility: hidden;
+}
+
+.imageDots2 {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 1680px) {
@@ -590,11 +590,14 @@ i:hover {
 
   .yellowdot {
     position: absolute;
-    top: 1000px;
+    top: 1305px;
     visibility: visible;
+    left: 979px;
   }
 
   .imggeo5 {
+    position: absolute;
+    top: 1303px;
     visibility: visible;
   }
 
@@ -620,7 +623,7 @@ i:hover {
   }
 
   .aboutTopMargin {
-    margin-top: 713px;
+    margin-top: 1460px;
   }
 
   .imgGroup83 {
@@ -628,5 +631,38 @@ i:hover {
     left: 1486px;
     top: 1107px;
     visibility: visible;
+  }
+
+  .redSquare {
+    position: absolute;
+    left: 876px;
+    top: 1118px;
+    visibility: visible;
+  }
+
+  .laptopPic1 {
+    position: absolute;
+    left: 1067px;
+    top: 1303px;
+    width: 393px;
+  }
+
+  .ABLaptop {
+    position: absolute;
+    top: 835px;
+    width: 800px;
+  }
+
+  .imageDots2 {
+    position: absolute;
+    left: 703px;
+    top: -48px;
+    visibility: visible;
+  }
+
+  .laptopPic2 {
+    position: absolute;
+    top: 567px;
+    width: 465px;
   }
 }
