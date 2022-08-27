@@ -449,6 +449,19 @@ i:hover {
   }
 
   .weirddeco1 {
+    position: relative;
     visibility: visible;
+  }
+
+  .weirddeco2 {
+    position: absolute;
+    left: 34px;
+    top: 113px;
+  }
+
+  .weirddeco3 {
+    position: absolute;
+    left: 207px;
+    top: 51px;
   }
 }
