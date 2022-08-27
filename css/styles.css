@@ -35,6 +35,10 @@ nav {
   visibility: hidden;
 }
 
+.weirddeco1 {
+  visibility: hidden;
+}
+
 h1 {
   color: #1a2236;
   width: 220px;
@@ -247,6 +251,7 @@ button:active {
   width: 289px;
   position: relative;
   color: white;
+  margin-bottom: 15px;
 }
 
 .rectangle2 {
@@ -255,7 +260,7 @@ button:active {
   width: 289px;
   position: relative;
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 27px;
 }
 
 .rectangle3 {
@@ -435,10 +440,15 @@ i:hover {
   }
 
   .rectangle1 {
-    margin-bottom: 12px;
+    margin-bottom: 0;
   }
 
   .rectangle2 {
     margin-left: 0;
-  } 
+    margin-bottom: 12px;
+  }
+
+  .weirddeco1 {
+    visibility: visible;
+  }
 }
