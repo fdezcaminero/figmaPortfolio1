@@ -415,6 +415,8 @@ i:hover {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: lightgray;
+  display: flex;
+  justify-content: center;
 }
 
 .desktopnav ul li {
