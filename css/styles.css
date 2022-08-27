@@ -163,6 +163,13 @@ button:active {
   width: 319px;
 }
 
+.box4 {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 319px;
+}
+
 .cooldeco1 {
   visibility: hidden;
 }
@@ -434,6 +441,24 @@ i:hover {
   left: -86px;
 }
 
+.imggeo2 {
+  visibility: hidden;
+}
+
+.imggeo5 {
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+}
+
+.fixGap1 {
+  margin-bottom: -5px;
+}
+
+.imgGroup83 {
+  visibility: hidden;
+}
+
 @media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
@@ -562,6 +587,40 @@ i:hover {
     top: 1000px;
     visibility: visible;
   }
+
+  .imggeo5 {
+    visibility: visible;
+  }
+
+  .rectangle21 {
+    position: absolute;
+    top: 671px;
+    left: 1380px;
+    width: 444px;
+    z-index: -1;
+  }
+
+  .imggeo2 {
+    position: absolute;
+    left: 867px;
+    top: 671px;
+    visibility: visible;
+  }
+
+  .floatingBox {
+    position: absolute;
+    left: 1324px;
+    top: 762px;
+  }
+
+  .aboutTopMargin {
+    margin-top: 713px;
+  }
+
+  .imgGroup83 {
+    position: absolute;
+    left: 1486px;
+    top: 1107px;
+    visibility: visible;
+  }
 }
-
-
