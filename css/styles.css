@@ -425,13 +425,6 @@ i:hover {
   margin-right: 30px;
 }
 
-.deco4 {
-  background-image: url(../resources/image_dots.png);
-  background-repeat: no-repeat;
-  padding-bottom: 164px;
-  visibility: hidden;
-}
-
 .awesomedeco1 {
   background-image: url(../resources/image-geometry_7.svg);
   background-repeat: no-repeat;
@@ -505,10 +498,6 @@ i:hover {
     width: 1403px;
     margin-left: 677px;
     position: relative;
-  }
-
-  .deco4 {
-    visibility: visible;
   }
 
   .desktopflex {
