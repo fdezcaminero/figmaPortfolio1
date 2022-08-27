@@ -146,14 +146,25 @@ button:active {
   background: #1a2236;
   display: grid;
   justify-items: flex-start;
-  width: 100%;
+  width: 319px;
 }
 
 .box2 {
   background: #1a2236;
   display: grid;
   color: #92dcdc;
-  width: 100%;
+  width: 319px;
+}
+
+.box3 {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 319px;
+}
+
+.cooldeco1 {
+  visibility: hidden;
 }
 
 .greenul {
@@ -206,6 +217,10 @@ button:active {
   position: absolute;
   left: 185px;
   top: 185px;
+}
+
+.yellowdot {
+  visibility: hidden;
 }
 
 .marginleft {
@@ -402,7 +417,7 @@ i:hover {
   background-image: url(../resources/image-geometry_7.svg);
   background-repeat: no-repeat;
   position: absolute;
-  left: 1333px;
+  left: 1488px;
   top: 296px;
   visibility: hidden;
   width: 353px;
@@ -512,6 +527,41 @@ i:hover {
   }
 
   .projectsrotate {
+    font-size: 110px;
     transform: rotate(-90deg);
   }
+
+  .box3 {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .cooldeco1 {
+    visibility: visible;
+  }
+
+  .box1 {
+    width: 960px;
+    position: absolute;
+    left: 880px;
+    top: -51px;
+    width: 960px;
+  }
+
+  .box2 {
+    width: 100%;
+  }
+
+  .noOF {
+    width: 960px;
+  }
+
+  .yellowdot {
+    position: absolute;
+    top: 1000px;
+    visibility: visible;
+  }
 }
+
+
