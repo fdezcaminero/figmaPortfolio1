@@ -26,6 +26,17 @@ nav {
   margin-top: -8px;
 }
 
+.decoration1andAhalf {
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 77px;
+  width: 115px;
+  left: 2px;
+  position: absolute;
+}
+
 .decoration2 {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
