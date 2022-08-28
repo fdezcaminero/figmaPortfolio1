@@ -775,4 +775,16 @@ i:hover {
   .newWidth {
     width: 600px;
   }
+
+  .crazyBox {
+    display: flex;
+  }
+  
+  .crazyBox2 {
+    width: 615px;
+  }
+
+  .margRight1 {
+    margin-right: 31px;
+  }
 }
