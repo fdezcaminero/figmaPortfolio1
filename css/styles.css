@@ -623,6 +623,8 @@ i:hover {
   .getstarted {
     width: 100%;
     margin-left: 0;
+    margin-bottom: 85px;
+    padding-bottom: 83px;
   }
 
   .projectsrotate {
