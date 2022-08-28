@@ -213,7 +213,23 @@ button:active {
   margin-right: 3px;
 }
 
+.greenliX {
+  font-size: 14px;
+  color: #1a2236;
+  border: 1px solid #98dede;
+  background-color: #98dede;
+  margin-right: 3px;
+}
+
 .projectName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-bottom: -4px;
+}
+
+.projectNameX {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: white;
@@ -788,5 +804,18 @@ i:hover {
 
   .margRight1 {
     margin-right: 31px;
+  }
+
+  .projectNameX {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-left: 25px;
+    margin-bottom: -4px;
+    margin-top: 12px;
+  }
+
+  .greenliX {
+    font-size: 20px;
   }
 }
