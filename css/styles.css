@@ -175,6 +175,7 @@ button:active {
 .box2 {
   background: #1a2236;
   display: grid;
+  justify-content: space-between;
   color: #92dcdc;
   width: 319px;
 }
@@ -396,6 +397,12 @@ i:hover {
   margin-left: 30px;
 }
 
+.dflex8 {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
 .social {
   display: flex;
 }
@@ -536,6 +543,27 @@ i:hover {
     justify-content: center;
   }
 
+  .dflex {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .dflex8 {
+    display: flex;
+    position: absolute;
+    top: 39px;
+    left: 69px;
+    visibility: visible;
+    width: 123px;
+  }
+
+  .social {
+    position: absolute;
+    left: 1360px;
+    top: 39px;
+  }
+
   .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -618,6 +646,12 @@ i:hover {
 
   .box2 {
     width: 100%;
+    position: absolute;
+    height: 123px;
+    left: 0;
+    top: 3971px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .noOF {
@@ -712,5 +746,11 @@ i:hover {
     position: absolute;
     top: 567px;
     width: 465px;
+  }
+
+  .tealimg {
+    width: 18px;
+    height: 49px;
+    padding-left: 18px;
   }
 }
