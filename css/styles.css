@@ -66,13 +66,13 @@ h1 {
 
 h2 {
   color: #1a2236;
-  width: 220px;
   line-height: 100%;
   margin-top: 79px;
   margin-left: 16px;
-  font-weight: 400;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
+  margin-bottom: 19.3px;
+  font-weight: normal;
 }
 
 .p1 {
@@ -95,7 +95,7 @@ h2 {
   margin-left: 16px;
   font-weight: 400;
   font-family: 'Playfair Display', serif;
-  font-size: 110px;
+  font-size: 50px;
   margin-bottom: 25px;
 }
 
@@ -761,5 +761,18 @@ i:hover {
     position: absolute;
     left: 362px;
     top: 211px;
+  }
+
+  .p2 {
+    font-size: 110px;
+  }
+
+  .h2 {
+    font-size: 110px;
+    font-weight: bold;
+  }
+
+  .newWidth {
+    width: 699.533px;
   }
 }
