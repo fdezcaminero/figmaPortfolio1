@@ -555,13 +555,16 @@ i:hover {
     top: 39px;
     left: 69px;
     visibility: visible;
-    width: 123px;
+    width: 220px;
+    font-size: 18px;
+    font-weight: bold;
   }
 
   .social {
     position: absolute;
     left: 1360px;
-    top: 39px;
+    top: 30px;
+    font-size: x-large;
   }
 
   .grid1 {
@@ -749,8 +752,8 @@ i:hover {
   }
 
   .tealimg {
-    width: 18px;
-    height: 49px;
+    width: 26px;
+    height: 53px;
     padding-left: 18px;
   }
 }
