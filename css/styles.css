@@ -767,12 +767,12 @@ i:hover {
     font-size: 110px;
   }
 
-  .h2 {
+  h2 {
     font-size: 110px;
     font-weight: bold;
   }
 
   .newWidth {
-    width: 699.533px;
+    width: 600px;
   }
 }
