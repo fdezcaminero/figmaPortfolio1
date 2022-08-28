@@ -524,8 +524,8 @@ i:hover {
     height: 877.09px;
     visibility: visible;
     width: 1403px;
-    margin-left: 826px;
     position: relative;
+    margin-left: 1136px;
   }
 
   .desktopflex {
@@ -755,5 +755,11 @@ i:hover {
     width: 26px;
     height: 53px;
     padding-left: 18px;
+  }
+
+  .styleName {
+    position: absolute;
+    left: 362px;
+    top: 211px;
   }
 }
