@@ -820,4 +820,8 @@ i:hover {
   .greenliX {
     font-size: 20px;
   }
+
+  .crazylabel {
+    top: -18px;
+  }
 }
