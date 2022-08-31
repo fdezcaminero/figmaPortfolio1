@@ -824,4 +824,14 @@ i:hover {
   .crazylabel {
     top: -18px;
   }
+
+  .button2 {
+    background: white;
+    color: #1a2236;
+  }
+
+  .button2:hover {
+    background: #1a2236;
+    color: white;
+  }
 }
