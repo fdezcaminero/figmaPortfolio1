@@ -415,10 +415,6 @@ i:hover {
   margin-left: 30px;
 }
 
-.dflex87 {
-  display: flex;
-}
-
 .dflex8 {
   visibility: hidden;
   height: 0;
@@ -546,8 +542,7 @@ i:hover {
     height: 877.09px;
     visibility: visible;
     position: relative;
-    background-position: 100% 0%;
-    width: 724px;
+    width: 702px;
   }
 
   .desktopflex {
@@ -628,11 +623,11 @@ i:hover {
   .dottedimg1 {
     background-image: url(../resources/image_dots.png);
     background-repeat: no-repeat;
-    height: 1413px;
+    height: 190px;
     visibility: visible;
     position: relative;
-    background-position: 100% 50%;
-    width: 1163px;
+    width: 174px;
+    margin-top: 702px;
   }
 
   .awesomedeco1 {
@@ -848,5 +843,12 @@ i:hover {
     top:  365px;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
+  }
+
+  .dflex87 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
   }
 }
