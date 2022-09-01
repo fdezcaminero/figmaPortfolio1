@@ -415,6 +415,10 @@ i:hover {
   margin-left: 30px;
 }
 
+.dflex87 {
+  display: flex;
+}
+
 .dflex8 {
   visibility: hidden;
   height: 0;
@@ -541,9 +545,9 @@ i:hover {
     padding-bottom: 164px;
     height: 877.09px;
     visibility: visible;
-    width: 1403px;
     position: relative;
-    margin-left: 1136px;
+    background-position: 100% 0%;
+    width: 724px;
   }
 
   .desktopflex {
@@ -622,12 +626,13 @@ i:hover {
   }
 
   .dottedimg1 {
+    background-image: url(../resources/image_dots.png);
+    background-repeat: no-repeat;
+    height: 1413px;
     visibility: visible;
-    position: absolute;
-    height: 175px;
-    width: 175px;
-    top: 701px;
-    left: -174px;
+    position: relative;
+    background-position: 100% 50%;
+    width: 1163px;
   }
 
   .awesomedeco1 {
@@ -833,5 +838,15 @@ i:hover {
   .button2:hover {
     background: #1a2236;
     color: white;
+  }
+
+  .foolingaround {
+    position: absolute;
+    width: 960px;
+    height: 353px;
+    left: 881px;
+    top:  365px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
   }
 }
