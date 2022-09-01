@@ -235,8 +235,10 @@ button:active {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: white;
-  padding-left: 25px;
+  padding-left: 47px;
   margin-bottom: -4px;
+  margin-top: -322px;
+  z-index: 999;
 }
 
 .bordersolid {
@@ -840,7 +842,7 @@ i:hover {
     width: 960px;
     height: 353px;
     left: 881px;
-    top:  365px;
+    top: 157px;
     background: rgba(26, 34, 54, 0.95);
     backdrop-filter: blur(24px);
   }
