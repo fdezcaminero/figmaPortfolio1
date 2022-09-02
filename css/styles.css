@@ -1,10 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
 nav {
   display: flex;
   justify-content: space-between;
 }
 
+.stickimg {
+  position: absolute;
+  margin-top: 23px;
+}
+
 .artdeco {
   padding-top: 6px;
+}
+
+.dottedimg1 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.header1 {
+  margin-bottom: -67px;
 }
 
 .decoration1 {
@@ -17,10 +34,29 @@ nav {
   margin-top: -8px;
 }
 
+.decoration1andAhalf {
+  background-image: url(../resources/image_geometry_1.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 77px;
+  width: 115px;
+  left: 2px;
+  position: absolute;
+}
+
 .decoration2 {
   background-image: url(../resources/image_geometry_2.svg);
   background-repeat: no-repeat;
   padding-bottom: 164px;
+}
+
+.decoration3 {
+  visibility: hidden;
+}
+
+.weirddeco1 {
+  visibility: hidden;
 }
 
 h1 {
@@ -36,18 +72,17 @@ h1 {
 
 h2 {
   color: #1a2236;
-  width: 220px;
   line-height: 100%;
   margin-top: 79px;
   margin-left: 16px;
-  font-weight: 400;
   font-family: 'Playfair Display', serif;
   font-size: 50px;
+  margin-bottom: 19.3px;
+  font-weight: normal;
 }
 
 .p1 {
   color: #1a2236;
-  width: 288px;
   height: 80px;
   margin-top: 21px;
   margin-left: 16px;
@@ -55,6 +90,8 @@ h2 {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  width: 365px;
+  padding-bottom: 38px;
 }
 
 .p2 {
@@ -69,6 +106,15 @@ h2 {
   margin-bottom: 25px;
 }
 
+.p2:hover {
+  transform: scale(1.1);
+  transition-duration: 2s;
+}
+
+.grid1 {
+  margin-bottom: -140px;
+}
+
 .button1 {
   border-color: #1a2236;
   font-family: 'Poppins', sans-serif;
@@ -80,6 +126,28 @@ h2 {
   color: white;
   margin-bottom: 17px;
   border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
+}
+
+.button31416 {
+  border-color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 292px;
+  margin-left: 16px;
+  height: 70px;
+  background: #1a2236;
+  color: white;
+  margin-bottom: 17px;
+  border-width: 1px 1px 1px 1px;
+  animation: button1Animation 3s;
+}
+
+@keyframes button1Animation {
+  50% {
+    transform: scale(1.04);
+    box-shadow: 10px 10px #1a22362d;
+  }
 }
 
 .button2 {
@@ -97,9 +165,25 @@ h2 {
   left: 24px;
 }
 
+.button3 {
+  border-color: #1a2236;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  width: 207px;
+  margin-left: 16px;
+  height: 50px;
+  background: #1a2236;
+  color: white;
+  margin-bottom: 17px;
+  border-width: 1px 1px 1px 1px;
+  position: relative;
+  left: 24px;
+}
+
 button:hover {
   color: #1a2236;
   background: white;
+  cursor: pointer;
 }
 
 button:active {
@@ -112,18 +196,43 @@ button:active {
   background: #1a2236;
   display: grid;
   justify-items: flex-start;
-  width: 100%;
+  width: 319px;
 }
 
 .box2 {
   background: #1a2236;
   display: grid;
+  justify-content: space-between;
   color: #92dcdc;
+  width: 319px;
+}
+
+.box3 {
+  background: #1a2236;
+  display: grid;
   justify-items: flex-start;
-  width: 100%;
+  width: 319px;
+}
+
+.box4 {
+  background: #1a2236;
+  display: grid;
+  justify-items: flex-start;
+  width: 319px;
+}
+
+.cooldeco1 {
+  visibility: hidden;
 }
 
 .greenul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 27px;
+}
+
+.greenul2 {
   display: flex;
   justify-content: flex-start;
   list-style: none;
@@ -138,7 +247,23 @@ button:active {
   margin-right: 3px;
 }
 
+.greenliX {
+  font-size: 14px;
+  color: #1a2236;
+  border: 1px solid #98dede;
+  background-color: #98dede;
+  margin-right: 3px;
+}
+
 .projectName {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+  padding-left: 25px;
+  margin-bottom: -4px;
+}
+
+.projectNameX {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: white;
@@ -173,6 +298,12 @@ button:active {
   position: absolute;
   left: 185px;
   top: 185px;
+}
+
+.yellowdot {
+  height: 0;
+  width: 0;
+  visibility: hidden;
 }
 
 .marginleft {
@@ -221,7 +352,7 @@ button:active {
   width: 289px;
   position: relative;
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .rectangle2 {
@@ -230,7 +361,7 @@ button:active {
   width: 289px;
   position: relative;
   color: white;
-  margin-bottom: 12px;
+  margin-bottom: 27px;
 }
 
 .rectangle3 {
@@ -240,6 +371,7 @@ button:active {
   position: relative;
   color: white;
   margin-bottom: 12px;
+  margin-top: -12px;
 }
 
 .noOF {
@@ -248,12 +380,14 @@ button:active {
 }
 
 .getstarted {
+  position: relative;
   margin-left: 17px;
   width: 288px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+  background: #f9f9fa;
 }
 
 footer ul {
@@ -281,6 +415,11 @@ textarea {
   margin-bottom: 20px;
 }
 
+.desktopnav ul {
+  display: flex;
+  list-style: none;
+}
+
 .getstarted form ul {
   display: flex;
   flex-direction: column;
@@ -296,9 +435,22 @@ textarea {
   margin-right: 30px;
 }
 
+.awhite:hover,
+i:hover {
+  color: #92dcdc;
+  transform: scale(1.2);
+  transition-duration: 1.5s;
+}
+
 .dflex {
   display: flex;
   margin-left: 30px;
+}
+
+.dflex8 {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
 
 .social {
@@ -320,4 +472,452 @@ textarea {
   top: 2px;
   left: 4px;
   font-size: 11px;
+}
+
+.desktopnav {
+  visibility: hidden;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #1a2236;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+
+.desktopnav ul li {
+  margin-right: 30px;
+}
+
+.awesomedeco1 {
+  background-image: url(../resources/image-geometry_7.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1488px;
+  top: 296px;
+  visibility: hidden;
+  width: 353px;
+  height: 351px;
+}
+
+.awesomedeco2 {
+  background-image: url(../resources/image-geometry_6.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  visibility: hidden;
+  width: 353px;
+  height: 351px;
+  left: -86px;
+}
+
+.imggeo2 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.imggeo5 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.fixGap1 {
+  margin-top: -1px;
+  margin-bottom: -5px;
+}
+
+.imgGroup83 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.redSquare {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.imageDots2 {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.dflex3 {
+  display: flex;
+  justify-content: center;
+}
+
+.pad-right {
+  padding-right: 21px;
+}
+
+@media screen and (min-width: 1440px) {
+  .decoration1 {
+    visibility: hidden;
+  }
+
+  .decoration2 {
+    visibility: hidden;
+  }
+
+  .decoration3 {
+    background-image: url(../resources/Thur.png);
+    background-repeat: no-repeat;
+    padding-bottom: 164px;
+    height: 877.09px;
+    visibility: visible;
+    position: relative;
+    width: 702px;
+  }
+
+  .desktopflex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktopnav {
+    visibility: visible;
+  }
+
+  .dflex2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .dflex {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .dflex8 {
+    display: flex;
+    position: absolute;
+    top: 39px;
+    left: 69px;
+    visibility: visible;
+    width: 220px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .social {
+    position: absolute;
+    left: 1360px;
+    top: 30px;
+    font-size: x-large;
+  }
+
+  .grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 0;
+  }
+
+  .header1 {
+    margin-top: -94px;
+    margin-bottom: 0;
+  }
+
+  .rectangle1 {
+    margin-bottom: 0;
+  }
+
+  .rectangle2 {
+    margin-left: 0;
+    margin-bottom: 12px;
+  }
+
+  .weirddeco1 {
+    position: relative;
+    visibility: visible;
+  }
+
+  .weirddeco2 {
+    position: absolute;
+    left: 34px;
+    top: 113px;
+  }
+
+  .weirddeco3 {
+    position: absolute;
+    left: 207px;
+    top: 51px;
+  }
+
+  .dottedimg1 {
+    background-image: url(../resources/image_dots.png);
+    background-repeat: no-repeat;
+    height: 190px;
+    visibility: visible;
+    position: relative;
+    width: 174px;
+    margin-top: 702px;
+  }
+
+  .awesomedeco1 {
+    visibility: visible;
+  }
+
+  .awesomedeco2 {
+    visibility: visible;
+  }
+
+  .getstarted {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 85px;
+    padding-bottom: 83px;
+  }
+
+  .projectsrotate {
+    font-size: 110px;
+    transform: rotate(-90deg);
+  }
+
+  .box3 {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+
+  .cooldeco1 {
+    visibility: visible;
+  }
+
+  .box1 {
+    position: absolute;
+    left: 880px;
+    top: -51px;
+    width: 960px;
+  }
+
+  .box2 {
+    width: 100%;
+    position: absolute;
+    height: 123px;
+    left: 0;
+    top: 4188px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .noOF {
+    width: 960px;
+  }
+
+  .yellowdot {
+    position: absolute;
+    top: 1305px;
+    visibility: visible;
+    left: 979px;
+    height: 88px;
+    width: 88px;
+  }
+
+  .imggeo5 {
+    position: absolute;
+    top: 1303px;
+    height: 125px;
+    width: 212px;
+    visibility: visible;
+  }
+
+  .rectangle21 {
+    position: absolute;
+    top: 671px;
+    left: 1380px;
+    width: 444px;
+    z-index: -1;
+  }
+
+  .imggeo2 {
+    position: absolute;
+    height: 350px;
+    width: 511px;
+    left: 867px;
+    top: 671px;
+    visibility: visible;
+  }
+
+  .floatingBox {
+    position: absolute;
+    left: 1324px;
+    top: 762px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .aboutTopMargin {
+    margin-top: 1460px;
+    margin-bottom: 84px;
+  }
+
+  .imgGroup83 {
+    position: absolute;
+    left: 1486px;
+    top: 1107px;
+    height: 176px;
+    width: 351px;
+    visibility: visible;
+  }
+
+  .redSquare {
+    position: absolute;
+    left: 876px;
+    top: 1118px;
+    height: 176px;
+    width: 176px;
+    visibility: visible;
+  }
+
+  .laptopPic1 {
+    position: absolute;
+    left: 1067px;
+    top: 1303px;
+    width: 393px;
+  }
+
+  .ABLaptop {
+    position: absolute;
+    top: 835px;
+    width: 800px;
+  }
+
+  .imageDots2 {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    left: 703px;
+    top: -48px;
+    visibility: visible;
+  }
+
+  .laptopPic2 {
+    position: absolute;
+    top: 567px;
+    width: 465px;
+  }
+
+  .tealimg {
+    width: 26px;
+    height: 53px;
+    padding-left: 18px;
+  }
+
+  .styleName {
+    position: absolute;
+    left: 362px;
+    top: 211px;
+  }
+
+  .p2 {
+    font-size: 110px;
+  }
+
+  h2 {
+    font-size: 110px;
+    font-weight: bold;
+  }
+
+  .newWidth {
+    width: 600px;
+  }
+
+  .crazyBox {
+    display: flex;
+  }
+
+  .crazyBox2 {
+    width: 615px;
+  }
+
+  .margRight1 {
+    margin-right: 31px;
+  }
+
+  .projectNameX {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-left: 57px;
+    margin-bottom: -4px;
+    margin-top: -322px;
+    z-index: 999;
+  }
+
+  .greenliX {
+    font-size: 20px;
+  }
+
+  .crazylabel {
+    top: -18px;
+  }
+
+  .button2 {
+    background: white;
+    color: #1a2236;
+    position: absolute;
+    top: 416px;
+    z-index: 999;
+    left: 58px;
+  }
+
+  .button2:hover {
+    background: #1a2236;
+    color: white;
+  }
+
+  .button3 {
+    background: white;
+    color: #1a2236;
+  }
+
+  .button3:hover {
+    background: #1a2236;
+    color: white;
+  }
+
+  .foolingaround {
+    position: absolute;
+    width: 960px;
+    height: 353px;
+    left: 881px;
+    top: 157px;
+    background: rgba(26, 34, 54, 0.95);
+    backdrop-filter: blur(24px);
+  }
+
+  .dflex87 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .greenul {
+    position: absolute;
+    top: 320px;
+    z-index: 999;
+    left: 31px;
+  }
+
+  .p1 {
+    width: 484px;
+    padding-bottom: 7px;
+  }
+
+  .button31416 {
+    width: 254px;
+  }
 }
