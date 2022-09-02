@@ -558,7 +558,7 @@ i:hover {
   padding-right: 21px;
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (min-width: 1440px) {
   .decoration1 {
     visibility: hidden;
   }
