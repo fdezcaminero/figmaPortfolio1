@@ -183,6 +183,7 @@ h2 {
 button:hover {
   color: #1a2236;
   background: white;
+  cursor: pointer;
 }
 
 button:active {
