@@ -20,6 +20,10 @@ nav {
   visibility: hidden;
 }
 
+.header1 {
+  margin-bottom: -67px;
+}
+
 .decoration1 {
   background-image: url(../resources/image_geometry_1.svg);
   background-repeat: no-repeat;
@@ -105,6 +109,10 @@ h2 {
 .p2:hover {
   transform: scale(1.1);
   transition-duration: 2s;
+}
+
+.grid1 {
+  margin-bottom: -140px;
 }
 
 .button1 {
@@ -550,7 +558,7 @@ i:hover {
   padding-right: 21px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1680px) {
   .decoration1 {
     visibility: hidden;
   }
@@ -612,10 +620,12 @@ i:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 0;
   }
 
   .header1 {
     margin-top: -94px;
+    margin-bottom: 0;
   }
 
   .rectangle1 {
@@ -696,7 +706,7 @@ i:hover {
     position: absolute;
     height: 123px;
     left: 0;
-    top: 4115px;
+    top: 4188px;
     display: flex;
     justify-content: space-between;
   }
@@ -749,6 +759,7 @@ i:hover {
 
   .aboutTopMargin {
     margin-top: 1460px;
+    margin-bottom: 84px;
   }
 
   .imgGroup83 {
