@@ -3,6 +3,7 @@
 # Portfolio Project
 
 * Creating my first Portfolio with help from Figma's templates.
+* Now live! (Courtesy of GitHub Pages) https://fdezcaminero.github.io/figmaPortfolio1/
 
 ## Built With
 
