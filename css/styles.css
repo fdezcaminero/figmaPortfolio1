@@ -259,6 +259,9 @@ button:active {
   color: white;
   padding-left: 25px;
   margin-bottom: -4px;
+}
+
+.newBackgroundColor {
   background-color: #1a2236;
 }
 
@@ -853,7 +856,6 @@ i:hover {
     margin-bottom: -4px;
     margin-top: -322px;
     z-index: 999;
-    background-color: #000000;
   }
 
   .greenliX {
@@ -919,5 +921,9 @@ i:hover {
 
   .button31416 {
     width: 254px;
+  }
+
+  .newBackgroundColor {
+    background-color: transparent;
   }
 }
