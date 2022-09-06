@@ -250,6 +250,7 @@ button:active {
   color: white;
   padding-left: 25px;
   margin-bottom: -4px;
+  background-color: #1a2236;
 }
 
 .projectNameX {
@@ -258,6 +259,7 @@ button:active {
   color: white;
   padding-left: 25px;
   margin-bottom: -4px;
+  background-color: #1a2236;
 }
 
 .bordersolid {
@@ -851,6 +853,7 @@ i:hover {
     margin-bottom: -4px;
     margin-top: -322px;
     z-index: 999;
+    background-color: #000000;
   }
 
   .greenliX {
