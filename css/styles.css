@@ -308,6 +308,10 @@ button:active {
   font-family: 'Poppins', sans-serif;
 }
 
+.contrastColors {
+  color: #000000;
+}
+
 .poundsign {
   background-image: url(../resources/pound.svg);
   background-repeat: no-repeat;
