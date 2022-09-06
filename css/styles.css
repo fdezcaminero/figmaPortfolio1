@@ -59,17 +59,6 @@ nav {
   visibility: hidden;
 }
 
-h1 {
-  color: #1a2236;
-  width: 220px;
-  line-height: 100%;
-  margin-top: 19px;
-  margin-left: 16px;
-  font-weight: 400;
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-}
-
 h2 {
   color: #1a2236;
   line-height: 100%;
