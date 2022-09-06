@@ -59,7 +59,7 @@ nav {
   visibility: hidden;
 }
 
-h2 {
+.get-started {
   color: #1a2236;
   line-height: 100%;
   margin-top: 79px;
@@ -818,7 +818,7 @@ i:hover {
     font-size: 110px;
   }
 
-  h2 {
+  .get-started {
     font-size: 110px;
     font-weight: bold;
   }
