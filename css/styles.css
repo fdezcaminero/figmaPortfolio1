@@ -59,18 +59,7 @@ nav {
   visibility: hidden;
 }
 
-h1 {
-  color: #1a2236;
-  width: 220px;
-  line-height: 100%;
-  margin-top: 19px;
-  margin-left: 16px;
-  font-weight: 400;
-  font-family: 'Playfair Display', serif;
-  font-size: 50px;
-}
-
-h2 {
+.get-started {
   color: #1a2236;
   line-height: 100%;
   margin-top: 79px;
@@ -261,6 +250,7 @@ button:active {
   color: white;
   padding-left: 25px;
   margin-bottom: -4px;
+  background-color: #1a2236;
 }
 
 .projectNameX {
@@ -269,6 +259,10 @@ button:active {
   color: white;
   padding-left: 25px;
   margin-bottom: -4px;
+}
+
+.newBackgroundColor {
+  background-color: #1a2236;
 }
 
 .bordersolid {
@@ -317,6 +311,10 @@ button:active {
 
 .maryPoppins2 {
   font-family: 'Poppins', sans-serif;
+}
+
+.contrastColors {
+  color: #000;
 }
 
 .poundsign {
@@ -467,7 +465,7 @@ i:hover {
 }
 
 .crazylabel {
-  color: #7d7c84;
+  color: #4a4a4a;
   position: absolute;
   top: 2px;
   left: 4px;
@@ -559,6 +557,10 @@ i:hover {
   padding-right: 21px;
 }
 
+.crazyBox2-label {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
   .decoration1 {
     visibility: hidden;
@@ -606,7 +608,7 @@ i:hover {
     left: 69px;
     visibility: visible;
     width: 220px;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: bold;
   }
 
@@ -825,7 +827,7 @@ i:hover {
     font-size: 110px;
   }
 
-  h2 {
+  .get-started {
     font-size: 110px;
     font-weight: bold;
   }
@@ -919,5 +921,9 @@ i:hover {
 
   .button31416 {
     width: 254px;
+  }
+
+  .newBackgroundColor {
+    background-color: transparent;
   }
 }
