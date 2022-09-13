@@ -5,6 +5,10 @@ nav {
   justify-content: space-between;
 }
 
+.undermenu {
+  display: none;
+}
+
 .stickimg {
   position: absolute;
   margin-top: 23px;
